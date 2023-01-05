@@ -280,6 +280,9 @@ elif board_id == ap_board.NANOPI_DUO2:
 elif board_id == ap_board.NANOPI_NEO:
     from adafruit_blinka.board.nanopi.neo import *
 
+elif board_id == ap_board.CANIS_V1:
+    from adafruit_blinka.board.canis_v1 import *
+
 elif board_id == ap_board.PICO_U2IF:
     from adafruit_blinka.board.pico_u2if import *
 

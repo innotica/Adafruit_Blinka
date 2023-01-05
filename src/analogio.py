@@ -25,6 +25,10 @@ elif detector.board.greatfet_one:
 elif detector.board.any_siemens_simatic_iot2000:
     from adafruit_blinka.microcontroller.am65xx.analogio import AnalogIn
     from adafruit_blinka.microcontroller.am65xx.analogio import AnalogOut
+elif detector.chip.S5P4418:
+    from adafruit_blinka.microcontroller.generic_linux.sysfs_analogin import AnalogIn
+elif detector.chip.S5P6818:
+    from adafruit_blinka.microcontroller.generic_linux.sysfs_analogin import AnalogIn
 elif detector.chip.RK3308:
     from adafruit_blinka.microcontroller.generic_linux.sysfs_analogin import AnalogIn
 elif detector.chip.RK3399:

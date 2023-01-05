@@ -51,6 +51,10 @@ elif detector.chip.A311D:
     from adafruit_blinka.microcontroller.amlogic.a311d.pin import Pin
 elif detector.chip.EXYNOS5422:
     from adafruit_blinka.microcontroller.samsung.exynos5422.pin import Pin
+elif detector.chip.S5P4418:
+    from adafruit_blinka.microcontroller.samsung.smart4418.pin import Pin
+elif detector.chip.S5P6818:
+    from adafruit_blinka.microcontroller.samsung.smart4418.pin import Pin
 elif detector.chip.APQ8016:
     from adafruit_blinka.microcontroller.snapdragon.apq8016.pin import Pin
 elif detector.chip.IMX8MX:

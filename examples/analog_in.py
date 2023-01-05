@@ -6,11 +6,11 @@ import time
 import board
 from analogio import AnalogIn
 
-analog_in = AnalogIn(board.A1)
+analog_in = AnalogIn(board.AI1)
 
 
 def get_voltage(pin):
-    return (pin.value * 3.3) / 4096
+    return pin.value
 
 
 while True:

@@ -106,6 +106,7 @@ class I2C(Lockable):
             self._i2c = _I2C(frequency=frequency)
             return
 
+        
         if detector.board.any_embedded_linux:
             from adafruit_blinka.microcontroller.generic_linux.i2c import I2C as _I2C
         elif detector.board.ftdi_ft2232h:

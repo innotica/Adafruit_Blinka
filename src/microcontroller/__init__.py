@@ -80,6 +80,10 @@ elif chip_id == ap_chip.A311D:
     from adafruit_blinka.microcontroller.amlogic.a311d import *
 elif chip_id == ap_chip.EXYNOS5422:
     from adafruit_blinka.microcontroller.samsung.exynos5422 import *
+elif chip_id == ap_chip.S5P4418:
+    from adafruit_blinka.microcontroller.samsung.smart4418 import *
+elif chip_id == ap_chip.S5P6818:
+    from adafruit_blinka.microcontroller.samsung.smart4418 import *
 elif chip_id == ap_chip.APQ8016:
     from adafruit_blinka.microcontroller.snapdragon.apq8016 import *
 elif chip_id == ap_chip.A64:
