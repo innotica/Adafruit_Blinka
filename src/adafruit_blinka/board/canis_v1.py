@@ -20,6 +20,7 @@ I3 = pin.GPIO_A7
 I4 = pin.GPIO_A6
 I5 = pin.GPIO_A5
 # Analog inputs
+AI0 = pin.MCP_IN0
 AI1 = pin.ADC_IN1
 AI2 = pin.ADC_IN3
 AI3 = pin.ADC_IN4

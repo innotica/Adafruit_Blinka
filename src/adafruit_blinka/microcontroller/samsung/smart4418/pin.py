@@ -181,6 +181,7 @@ ADC_IN4 = 4
 ADC_IN5 = 5
 ADC_IN6 = 6
 ADC_IN7 = 7
+MCP_IN0 = 8
 
 # PWM
 PWM0 = GPIO_D1
@@ -257,7 +258,8 @@ analogIns = (
     (ADC_IN4, 0, 4),
     (ADC_IN5, 0, 5),
     (ADC_IN6, 0, 6),
-    (ADC_IN7, 0, 7)
+    (ADC_IN7, 0, 7),
+    (MCP_IN0, 1, 0),
 )
 
 analogRef = (1.8, 4096)
